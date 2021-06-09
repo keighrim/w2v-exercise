@@ -7,6 +7,6 @@ The `logres.py` module should have 1) `load_data(dats_set, training=True)` metho
 Data used to test algorithms are 
 1. Binomial classification (`logres.py`): *movie reviews* dataset (https://www.kaggle.com/nltkdata/movie-review?select=movie_reviews)
 1. Multinomial classification (`logres_multi.py`): *hotel reviews* dataset (https://www.kaggle.com/andrewmvd/trip-advisor-hotel-reviews)
-1. Word vectors (`skipgram.py`): three books (*Emma*, *Sense and Sensibility*, and *Persuasion*) of Jane Austen, downloaded from the Gutenberg Project (https://www.kaggle.com/andrewmvd/trip-advisor-hotel-reviews)
+1. Word vectors (`skipgram.py`): three books (*Emma*, *Sense and Sensibility*, and *Persuasion*) of Jane Austen, downloaded from the Gutenberg Project (https://www.gutenberg.org/ebooks/author/68)
 
 Data for classification was trimmed for class balance, and split into `dev` and `train` set. 
